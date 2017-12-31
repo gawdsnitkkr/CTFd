@@ -70,8 +70,6 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -378,8 +376,6 @@ module.exports = {
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
 
 module.exports = __webpack_require__(45).default;
 module.exports.default = module.exports;
@@ -388,7 +384,7 @@ module.exports.default = module.exports;
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 /*
@@ -829,7 +825,7 @@ function updateLink (link, options, obj) {
 /* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 module.exports = __webpack_require__(44).default;
@@ -839,7 +835,7 @@ module.exports.default = module.exports;
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(0);
@@ -932,7 +928,7 @@ module.exports = defaults;
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -1112,7 +1108,7 @@ module.exports = function xhrAdapter(config) {
 /* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 /**
@@ -1138,7 +1134,7 @@ module.exports = Cancel;
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 module.exports = function isCancel(value) {
@@ -1149,7 +1145,7 @@ module.exports = function isCancel(value) {
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var enhanceError = __webpack_require__(31);
@@ -1173,7 +1169,7 @@ module.exports = function createError(message, config, code, request, response) 
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 module.exports = function bind(fn, thisArg) {
@@ -1199,7 +1195,7 @@ module.exports = __webpack_amd_options__;
 /* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -1218,7 +1214,7 @@ exports.default = _ChalGrid2.default;
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -1237,7 +1233,7 @@ exports.default = _ChalModal2.default;
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -1256,7 +1252,7 @@ exports.default = _ChalToolbar2.default;
 /* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 module.exports = __webpack_require__(26);
@@ -1265,7 +1261,7 @@ module.exports = __webpack_require__(26);
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 /* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_RESULT__;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -2517,7 +2513,7 @@ if(false) {
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -2577,7 +2573,7 @@ function getColorFromValue(value, range) {
 /* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -2747,7 +2743,7 @@ exports.default = ChalModal;
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -2857,7 +2853,7 @@ ChalProgress.defaultProps = {
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -2876,7 +2872,7 @@ exports.default = _ChalProgress2.default;
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -2951,7 +2947,7 @@ exports.default = function (props) {
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -3130,7 +3126,7 @@ FilterDropdown.defaultProps = {
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -3149,7 +3145,7 @@ exports.default = _FilterDropdown2.default;
 /* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -3515,7 +3511,7 @@ _inferno2.default.render(createVNode(16, Chalboard), document.getElementById('ch
 /* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -3573,7 +3569,7 @@ module.exports.default = axios;
 /* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var Cancel = __webpack_require__(7);
@@ -3636,7 +3632,7 @@ module.exports = CancelToken;
 /* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var defaults = __webpack_require__(5);
@@ -3728,7 +3724,7 @@ module.exports = Axios;
 /* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -3786,7 +3782,7 @@ module.exports = InterceptorManager;
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -3852,7 +3848,7 @@ module.exports = function dispatchRequest(config) {
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 /**
@@ -3880,7 +3876,7 @@ module.exports = function enhanceError(error, config, code, request, response) {
 /* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var createError = __webpack_require__(9);
@@ -3906,7 +3902,7 @@ module.exports = function settle(resolve, reject, response) {
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -3932,7 +3928,7 @@ module.exports = function transformData(data, headers, fns) {
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 // btoa polyfill for IE<10 courtesy https://github.com/davidchambers/Base64.js
@@ -3973,7 +3969,7 @@ module.exports = btoa;
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -4040,7 +4036,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 /* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 /**
@@ -4059,7 +4055,7 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 /* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -4118,7 +4114,7 @@ function nonStandardBrowserEnv() {
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 /**
@@ -4140,7 +4136,7 @@ module.exports = function isAbsoluteURL(url) {
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -4209,7 +4205,7 @@ function nonStandardBrowserEnv() {
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -4227,7 +4223,7 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 /* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var utils = __webpack_require__(0);
@@ -4272,7 +4268,7 @@ module.exports = function parseHeaders(headers) {
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 /**
@@ -4306,7 +4302,7 @@ module.exports = function spread(callback) {
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -4365,7 +4361,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 /* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -4671,7 +4667,7 @@ exports['default'] = Component;
 /* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -7298,7 +7294,7 @@ exports.version = version;
 /* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 /*!
@@ -7327,7 +7323,7 @@ function isSlowBuffer(obj) {
 /* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 // shim for using process in browser
@@ -7520,7 +7516,7 @@ process.umask = function () {
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 /**
@@ -7615,7 +7611,7 @@ module.exports = function (css) {
 /* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+
 
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };

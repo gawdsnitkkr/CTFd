@@ -4,16 +4,16 @@
 		<title>{{ ctf_name() }}</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="{{ request.script_root }}/static/{{ ctf_theme() }}/img/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="{{ request.script_root }}/static/{{ ctf_theme() }}/img/favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" href="{{ request.script_root }}/static/{{ ctf_theme() }}/css/vendor/bootstrap.min.css">
-		<link rel="stylesheet" href="{{ request.script_root }}/static/{{ ctf_theme() }}/css/vendor/font-awesome/css/font-awesome.min.css" />
-		<link href='{{ request.script_root }}/static/{{ ctf_theme() }}/css/vendor/lato.css' rel='stylesheet' type='text/css'>
-		<link href='{{ request.script_root }}/static/{{ ctf_theme() }}/css/vendor/raleway.css' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="{{ request.script_root }}/static/{{ ctf_theme() }}/css/style.css">
+		<link rel="shortcut icon" href="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/css/vendor/bootstrap.min.css">
+		<link rel="stylesheet" href="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/css/vendor/font-awesome/css/font-awesome.min.css" />
+		<link href='{{ request.script_root }}/themes/{{ ctf_theme() }}/static/css/vendor/lato.css' rel='stylesheet' type='text/css'>
+		<link href='{{ request.script_root }}/themes/{{ ctf_theme() }}/static/css/vendor/raleway.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/css/style.css">
 		<link rel="stylesheet" type="text/css" href="{{ request.script_root }}/static/user.css">
 		{% block stylesheets %}{% endblock %}
-		<script src="{{ request.script_root }}/static/{{ ctf_theme() }}/js/vendor/moment.min.js"></script>
+		<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/vendor/moment.min.js"></script>
 		<script src="{{ request.script_root }}/static/original/js/vendor/handlebars.min.js"></script>
 		<script type="text/javascript">
 				var script_root = "{{ request.script_root }}";
@@ -30,7 +30,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a href="{{ request.script_root }}/" class="navbar-brand" title="{{ ctf_name() }}">
-						<img class="navbar-logo" src="{{ request.script_root }}/static/{{ ctf_theme() }}/img/csawlogo.png" alt="{{ ctf_name() }}" />
+						<img class="navbar-logo" src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/img/csawlogo.png" alt="{{ ctf_name() }}" />
 					</a>
 				</div>
 				<div class="navbar-collapse collapse" aria-expanded="false" style="height: 0px">
@@ -70,9 +70,9 @@
 				<p class="text-muted text-center"><a style="text-decoration:none;" href="https://ctfd.io" target="_blank"><sub>Powered by CTFd</sub></p>
 		</div>
 	</div>
-	<script src="{{ request.script_root }}/static/{{ ctf_theme() }}/js/vendor/jquery.min.js"></script>
-	<script src="{{ request.script_root }}/static/{{ ctf_theme() }}/js/vendor/marked.min.js"></script>
-	<script src="{{ request.script_root }}/static/{{ ctf_theme() }}/js/vendor/bootstrap.min.js"></script>
+	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/vendor/jquery.min.js"></script>
+	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/vendor/marked.min.js"></script>
+	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/vendor/bootstrap.min.js"></script>
 	<script>
 		$('a[href="' + window.location.pathname + '"]').addClass('active')
 	</script>

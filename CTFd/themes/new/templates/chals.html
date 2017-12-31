@@ -121,8 +121,8 @@
 {% endblock %}
 
 {% block scripts %}
-	<script src="{{ request.script_root }}/static/{{ ctf_theme() }}/js/utils.js"></script>
-	<script src="{{ request.script_root }}/static/{{ ctf_theme() }}/js/multi-modal.js"></script>
-	{% if not errors %}<script src="{{ request.script_root }}/static/{{ ctf_theme() }}/js/chalboard.86cf855750ac9fed6c58.js"></script>{% endif %}
-	<script src="{{ request.script_root }}/static/{{ ctf_theme() }}/js/style.js"></script>
+	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/utils.js"></script>
+	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/multi-modal.js"></script>
+	{% if not errors %}<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/chalboard.86cf855750ac9fed6c58.js"></script>{% endif %}
+	<script src="{{ request.script_root }}/themes/{{ ctf_theme() }}/static/js/style.js"></script>
 {% endblock %}

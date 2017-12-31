@@ -118,7 +118,7 @@ def chals():
 
     if utils.user_can_view_challenges() and (utils.ctf_started() or utils.is_admin()):
         teamid = session.get('id')
-        chals = Challenges.query.filter(or_(Challenges.hidden != True, Challenges.hidden == None)).order_by(Challenges.value).all()
+        chals = Challenges.query.filter(or_(Challenges.hidden != True, Challenges.hidden == None)).order_by(Challenges.value.desc()).all()
         json = {'game': []}
         for x in chals:
             tags = [tag.tag for tag in Tags.query.add_columns('tag').filter_by(chal=x.id).all()]
@@ -159,7 +159,7 @@ def solves_per_chal():
 
     chals = Challenges.query\
         .filter(or_(Challenges.hidden != True, Challenges.hidden == None))\
-        .order_by(Challenges.value)\
+        .order_by(Challenges.value.desc())\
         .all()
 
     solves_sub = db.session.query(

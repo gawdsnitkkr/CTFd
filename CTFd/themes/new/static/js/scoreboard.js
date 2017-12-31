@@ -25,7 +25,7 @@ function UTCtoDate(utc){
 function scoregraph () {
     $.get(script_root + '/top/10', function( data ) {
         var scores = $.parseJSON(JSON.stringify(data));
-        scores = scores['scores'];
+        // scores = scores['scores'];
         if (Object.keys(scores).length == 0 ){
             return;
         }

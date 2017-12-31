@@ -1,6 +1,9 @@
 html, body, .container {
     font-family: 'Lato', 'LatoOffline', sans-serif;
 }
+body {
+    background-color: #EDEEF2;
+}
 
 h1, h2 {
     font-family: 'Raleway', 'RalewayOffline', sans-serif;

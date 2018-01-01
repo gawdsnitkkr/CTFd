@@ -11,6 +11,11 @@
 </div>
 <div class="container">
 	<div class="row">
+		<div class="col-md-6 offset-md-3 text-center">
+			<a href="http://ctf.gawds.in/#Rules">View Rules</a>
+		</div>
+	</div>
+	<div class="row">
 		<div class="col-md-6 offset-md-3">
 			{% for error in errors %}
 				<div class="alert alert-danger alert-dismissable" role="alert">
@@ -45,49 +50,6 @@
 				</div>
 				<input type="hidden" name="nonce" value="{{ nonce }}">
 			</form>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6 offset-md-3">
-			<h3 class="text-center" style="margin-top: 30px">
-				BEAT THE GAWDS
-			</h3>
-			<h4 class="text-center" style="margin-bottom: 30px">
-				Capture The Flag
-			</h4>
-			<h6 class="text-center" style="margin-bottom: 15px">
-				Some helpful links to get you started!
-			</h6>
-			<div class="text-center">
-				<a href="https://ctftime.org/ctf-wtf/" target="_blank"
-				   title="CTFtime.org / All about CTF (Capture The Flag)">
-					CTFtime.org / All about CTF (Capture The Flag)
-				</a>
-			</div>
-			<div class="text-center">
-				<a href="https://www.endgame.com/blog/technical-blog/how-get-started-ctf" target="_blank"
-				   title="How to Get Started in CTF | Endgame">
-					How to Get Started in CTF | Endgame
-				</a>
-			</div>
-			<div class="text-center">
-				<a href="https://trailofbits.github.io/ctf/" target="_blank"
-				   title="Introduction - CTF Field Guide">
-					Introduction - CTF Field Guide
-				</a>
-			</div>
-			<div class="text-center">
-				<a href="http://www.openctf.com/html/firstctf.html" target="_blank"
-				   title="How to play your first OpenCTF">
-				   How to play your first OpenCTF
-				</a>
-			</div>
-			<h4 class="text-center" style="margin-top: 30px;">Rules</h4>
-			<ul>
-				<li>Flag sharing will lead to immediate disqualification</li>
-				<li>Don't try to hack the platform itself</li>
-				<li>Don't try to brute-force answers, it won't help and may lead to disqualification</li>
-			</ul>
 		</div>
 	</div>
 </div>

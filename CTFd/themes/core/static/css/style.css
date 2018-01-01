@@ -1,7 +1,7 @@
 
 html, body, .container {
     height: 100% !important;
-    font-family: 'Lato', 'LatoOffline', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1, h2 {
@@ -41,8 +41,8 @@ img {
 
 .navbar .navbar-brand {
     font-size: 24px;
-    letter-spacing: -0.04rem;
     line-height: 15px;
+    text-transform: uppercase;
     color: #FFF;
 }
 
@@ -81,36 +81,36 @@ img {
     padding-right: 70px;
 }
 
-#chal > form{
+#chal > form {
     width: 400px;
     margin: 0 auto;
 }
 
-.reveal-modal{
+.reveal-modal {
     text-align: center;
 }
 
-.chal-desc{
+.chal-desc {
     text-align: left;
 }
 
-table{
+table {
     width: 100%;
 }
 
-#challenges button{
+#challenges button {
     margin: 8px;
 }
 
-.row > h1{
+.row > h1 {
     text-align: center;
 }
 
-#challenges{
+#challenges {
     line-height: 66px;
 }
 
-#score-graph{
+#score-graph {
     height: 450px;
     display: block;
     clear: both;
@@ -128,17 +128,17 @@ table{
     opacity: 0.5;
 }
 
-#keys-pie-graph{
+#keys-pie-graph {
     width: 50%;
     float: left;
 }
 
-#categories-pie-graph{
+#categories-pie-graph {
     width: 50%;
     float: left;
 }
 
-.logo{
+.logo {
     margin: 0 auto;
     width: 100%;
     max-width: 500px;
@@ -146,8 +146,8 @@ table{
     display: block;
 }
 
-@media only screen and (min-width: 40.063em){
-    .top-bar .dropdown{
+@media only screen and (min-width: 40.063em) {
+    .top-bar .dropdown {
         display: block;
         padding: 0 15px 5px;
         width: 200% !important;
@@ -164,18 +164,18 @@ table{
     margin-bottom: 0;
     vertical-align: middle;
     white-space: nowrap;
-    font-size:14px;
-    line-height:20px;
-    font-weight:700;
-    text-transform:uppercase;
-    padding:8px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 20px;
 }
 
 .btn-outlined {
     border-radius: 0;
     -webkit-transition: all 0.3s;
-       -moz-transition: all 0.3s;
-            transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .file-wrapper {

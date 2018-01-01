@@ -63,8 +63,8 @@ def setup():
         </div>
         <div class="text-center">
             <a href="https://trailofbits.github.io/ctf/" target="_blank"
-               title="Introduction · CTF Field Guide">
-                Introduction · CTF Field Guide
+               title="Introduction - CTF Field Guide">
+                Introduction - CTF Field Guide
             </a>
         </div>
         <div class="text-center">
@@ -74,7 +74,7 @@ def setup():
             </a>
         </div>
     </div>
-</div>""".format(request.script_root)
+</div>"""
 
             page = Pages(title=None, route='index', html=index, draft=False)
 
